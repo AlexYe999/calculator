@@ -1,0 +1,65 @@
+body,
+button {
+    font-family: monospace;
+}
+
+#container {
+    background-color: red;
+    height: 530px;
+    width: 420px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 2%;
+}
+
+#display {
+    width: 378px;
+    height: 68px;
+    background-color: #B2B9B7;
+    margin: 12px auto 20px;
+    position: relative;
+    border-radius: 3px;
+    border: 6px solid black;
+    font-size: 5.5em;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    grid-column: 1 / -1;
+    justify-content: space-around;
+    padding-right: 8px;
+}
+
+#buttons {
+    width: 400px;
+    margin: 4px auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+
+button {
+    width: 98px;
+    height: 80px;
+    font-size: 25px;
+    border-radius: 8px;
+    border: none;
+    margin: 1px;
+    color: #fff5f5;
+    background-color: #217C7E;
+}
+
+.clear,
+.sign,
+.percent {
+    background-color: #1E90FF;
+}
+
+.operator,
+.equals {
+    background-color: darkorange;
+}
