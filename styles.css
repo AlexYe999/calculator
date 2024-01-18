@@ -53,6 +53,13 @@ button {
     background-color: #217C7E;
 }
 
+button:active,
+.operator:focus {
+    filter: brightness(135%);
+}
+
+
+
 .clear,
 .sign,
 .percent {
